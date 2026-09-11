@@ -16,7 +16,8 @@ window.PORTFOLIO = {
     heroTitle: "Jarret Dlugy",
     heroCopy: "University of Massachusetts Amherst · December 2026",
     aboutTitle: "From Lexington, Massachusetts to UMass Amherst.",
-    aboutCopy: "Jarret grew up in Lexington, Massachusetts and is currently finishing his mechanical engineering degree at UMass Amherst. He likes engineering most when he can actually build something—whether that means CAD, machining, prototyping, testing, or fixing something that didn't work the first time. Outside of engineering, he enjoys strength training, running, hiking year-round, and traveling. He's visited Hungary, Vietnam, Switzerland, Bosnia, Cambodia, and Chile."
+    aboutTitle: "From Lexington, Massachusetts to UMass Amherst.",
+    aboutCopy: "I grew up in Lexington, Massachusetts and am currently finishing my mechanical engineering degree at UMass Amherst. I like engineering most when I can actually build something, whether that means CAD, machining, prototyping, testing, or fixing something that did not work the first time. Outside of engineering, I enjoy strength training, running, hiking year-round, and traveling. I have visited Hungary, Vietnam, Switzerland, Bosnia, Cambodia, and Chile."
   },
 
   projects: [
