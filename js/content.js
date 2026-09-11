@@ -12,9 +12,9 @@ window.PORTFOLIO = {
     location: "Massachusetts",
     email: "jdlex926@gmail.com",
     linkedin: "https://www.linkedin.com/in/jarret-dlugy/",
-    heroKicker: "Mechanical Engineering · UMass Amherst · December 2026",
-    heroTitle: "I design, build, test, and improve physical systems.",
-    heroCopy: "Mechanical engineering student focused on product development, mechanical design, prototyping, testing, and manufacturing.",
+    heroKicker: "Mechanical Engineering Portfolio",
+    heroTitle: "Jarret Dlugy",
+    heroCopy: "University of Massachusetts Amherst · December 2026",
     aboutTitle: "A hands-on engineer who likes turning constraints into hardware.",
     aboutCopy: "Jarret combines mechanical design with practical prototyping and manufacturing experience. His work spans medical-device R&D, battery testing, drivetrain development, CNC machining, 3D printing, and engineering documentation."
   },
