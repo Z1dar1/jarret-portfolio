@@ -239,13 +239,57 @@ a { color: inherit; }
 }
 
 @media (max-width: 520px) {
-  .shell, .site-header { width: min(calc(100% - 28px), var(--max)); }
-  .nav { gap: 14px; }
-  .nav .nav-cta { font-size: .84rem; }
-  .hero h1 { font-size: clamp(3rem, 17vw, 5.2rem); }
-  .work, .experience, .about, .contact { padding: 78px 0; }
-  .project-grid { gap: 42px; }
-  .footer { flex-direction: column; }
+  .shell,
+  .site-header {
+    width: calc(100% - 28px);
+    max-width: 100%;
+  }
+
+  .site-header {
+    gap: 12px;
+  }
+
+  .nav {
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .nav .nav-cta {
+    font-size: .84rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, 17vw, 5.2rem);
+  }
+
+  .project-media,
+  .project-media img,
+  .about-photo,
+  .about-photo img {
+    max-width: 100%;
+  }
+
+  .hero h1,
+  .section-heading h2,
+  .about h2,
+  .contact h2 {
+    overflow-wrap: anywhere;
+  }
+
+  .work,
+  .experience,
+  .about,
+  .contact {
+    padding: 78px 0;
+  }
+
+  .project-grid {
+    gap: 42px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
