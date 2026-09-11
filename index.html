@@ -1,154 +1,80 @@
-<!DOCTYPE html>
-<html lang="ru">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jane Smith — Продуктовый дизайнер</title>
-  <meta name="description" content="Продуктовый дизайнер. Портфолио избранных проектов.">
-  <meta property="og:title" content="Jane Smith — Продуктовый дизайнер">
-  <meta property="og:description" content="Продуктовый дизайнер. Портфолио избранных проектов.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:locale" content="ru_RU">
-  <meta property="og:image" content="https://example.com/assets/img/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://example.com/assets/img/og-image.png">
-  <meta name="twitter:title" content="Jane Smith — Продуктовый дизайнер">
-  <meta name="twitter:description" content="Продуктовый дизайнер. Портфолио избранных проектов.">
-  <link rel="alternate" hreflang="en" href="https://example.com/en/">
-  <link rel="alternate" hreflang="ru" href="https://example.com/">
-  <link rel="canonical" href="https://example.com/">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="manifest" href="manifest.json">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.min.css">
-
-  <script data-goatcounter="https://YOURSITE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jane Smith",
-    "url": "https://example.com",
-    "jobTitle": "Продуктовый дизайнер",
-    "description": "Продуктовый дизайнер. Портфолио избранных проектов.",
-    "sameAs": [
-      "https://t.me/janesmith",
-      "https://instagram.com/janesmith"
-    ]
-  }
-  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Mechanical engineering portfolio of Jarret Dlugy — design, prototyping, testing, and manufacturing." />
+  <meta name="theme-color" content="#f5f5f1" />
+  <title>Jarret Dlugy — Mechanical Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="js/content.js"></script>
+  <script defer src="js/main.js"></script>
 </head>
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Jarret Dlugy home">JD</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="assets/Jarret_Dlugy_Resume.pdf" target="_blank" rel="noreferrer">Résumé ↗</a>
+    </nav>
+  </header>
 
-  <nav class="nav"><div class="nav-inner">
-    <div class="nav-left">
-      <div class="nav-links">
-        <a href="." class="active">Проекты</a>
-        <a href="about.html">Об авторе</a>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-kicker" id="hero-kicker"></div>
+      <h1 id="hero-title"></h1>
+      <p class="hero-copy" id="hero-copy"></p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#work">View selected work</a>
+        <a class="button button-secondary" id="linkedin-link" href="#" target="_blank" rel="noreferrer">LinkedIn ↗</a>
       </div>
-    </div>
-    <div class="nav-lang">
-      <span class="active">Ru</span>
-      <a href="en/">En</a>
-    </div>
-    <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
-  </div></nav>
+      <div class="hero-meta" id="hero-meta"></div>
+    </section>
 
-  <div class="nav-mobile" aria-hidden="true"></div>
+    <section class="work shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2 id="work-title">Engineering from problem to hardware.</h2>
+      </div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
 
-  <main class="main">
-    <h1 class="projects-title">Избранные проекты</h1>
-
-    <div class="project-list">
-
-      <a href="projects/example.html" class="project-item reveal">
-        <span class="project-year">2025</span>
-        <img class="project-thumb" src="assets/img/thumb-alpha.png" alt="Project Alpha">
-        <div class="project-name">
-          <span class="project-name-title">Project Alpha</span>
-          <span class="project-name-link" role="link" tabindex="0" data-href="https://example.com/" aria-label="Открыть сайт Project Alpha">сайт ↗</span>
+    <section class="experience shell" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">R&D, testing, manufacturing.</h2>
         </div>
-        <div class="project-info">
-          <span class="project-info-desc">Мобильное приложение</span>
-          <span class="project-info-tags">Продуктовый дизайн, UI/UX</span>
-          <span class="project-info-industry">SaaS</span>
-        </div>
-        <span class="project-arrow">→</span>
-      </a>
+        <p>Hands-on engineering experience spanning medical devices, battery development, mechanical design, and student vehicle systems.</p>
+      </div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
 
-      <a href="projects/example.html" class="project-item reveal">
-        <span class="project-year">2024</span>
-        <img class="project-thumb" src="assets/img/thumb-beta.png" alt="Project Beta">
-        <div class="project-name">
-          <span class="project-name-title">Project Beta</span>
-          <span class="project-name-link" role="link" tabindex="0" data-href="https://example.com/" aria-label="Открыть сайт Project Beta">сайт ↗</span>
-        </div>
-        <div class="project-info">
-          <span class="project-info-desc">Айдентика и лендинг</span>
-          <span class="project-info-tags">Брендинг, айдентика</span>
-          <span class="project-info-industry">Ecom</span>
-        </div>
-        <span class="project-arrow">→</span>
-      </a>
+    <section class="about shell" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="eyebrow">About</p>
+        <h2 id="about-title"></h2>
+        <p id="about-copy"></p>
+      </div>
+      <div class="skill-groups" id="skill-groups"></div>
+    </section>
 
-      <a href="projects/example.html" class="project-item reveal">
-        <span class="project-year">2023</span>
-        <img class="project-thumb" src="assets/img/thumb-gamma.png" alt="Project Gamma">
-        <div class="project-name">
-          <span class="project-name-title">Project Gamma</span>
-        </div>
-        <div class="project-info">
-          <span class="project-info-desc">Веб-приложение</span>
-          <span class="project-info-tags">UI/UX, исследования</span>
-          <span class="project-info-industry">EdTech</span>
-        </div>
-        <span class="project-arrow">→</span>
-      </a>
-
-    </div>
-
-    <h2 class="projects-title projects-title--archive">Pet projects</h2>
-
-    <div class="project-list">
-      <a href="projects/example.html" class="project-item reveal">
-        <span class="project-year">2024</span>
-        <img class="project-thumb" src="assets/img/thumb-side.png" alt="Side Project">
-        <div class="project-name">
-          <span class="project-name-title">Side Project</span>
-        </div>
-        <div class="project-info">
-          <span class="project-info-desc">Телеграм-бот</span>
-          <span class="project-info-tags">Продукт, UI</span>
-          <span class="project-info-industry">Productivity</span>
-        </div>
-        <span class="project-arrow">→</span>
-      </a>
-    </div>
-
-    <h2 class="projects-title projects-title--archive">Archive</h2>
-
-    <div class="project-list">
-      <a href="projects/example.html" class="project-item project-item--archive reveal">
-        <span class="project-year">2022</span>
-        <img class="project-thumb" src="assets/img/thumb-alpha.png" alt="Old Project">
-        <div class="project-name">
-          <span class="project-name-title">Old Project</span>
-        </div>
-        <div class="project-info">
-          <span class="project-info-desc">Редизайн сайта</span>
-          <span class="project-info-tags">UI/UX</span>
-          <span class="project-info-industry">Fintech</span>
-        </div>
-        <span class="project-arrow">→</span>
-      </a>
-    </div>
+    <section class="contact shell" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Interested in mechanical design, product development, or R&D opportunities.</h2>
+      <div class="contact-actions">
+        <a class="button button-primary" id="email-link" href="#">Email Jarret</a>
+        <a class="button button-secondary" href="assets/Jarret_Dlugy_Resume.pdf" target="_blank" rel="noreferrer">View résumé ↗</a>
+      </div>
+    </section>
   </main>
 
-  <script src="script.min.js"></script>
+  <footer class="footer shell">
+    <span>© <span id="year"></span> Jarret Dlugy</span>
+    <span>Mechanical Engineering · UMass Amherst</span>
+  </footer>
 </body>
 </html>
