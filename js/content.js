@@ -15,8 +15,8 @@ window.PORTFOLIO = {
     heroKicker: "Mechanical Engineering Portfolio",
     heroTitle: "Jarret Dlugy",
     heroCopy: "University of Massachusetts Amherst · December 2026",
-    aboutTitle: "A hands-on engineer who likes turning constraints into hardware.",
-    aboutCopy: "Jarret combines mechanical design with practical prototyping and manufacturing experience. His work spans medical-device R&D, battery testing, drivetrain development, CNC machining, 3D printing, and engineering documentation."
+    aboutTitle: "From Lexington, Massachusetts to UMass Amherst.",
+    aboutCopy: "Jarret grew up in Lexington, Massachusetts and is currently finishing his mechanical engineering degree at UMass Amherst. He likes engineering most when he can actually build something—whether that means CAD, machining, prototyping, testing, or fixing something that didn't work the first time. Outside of engineering, he enjoys strength training, running, hiking year-round, and traveling. He's visited Hungary, Vietnam, Switzerland, Bosnia, Cambodia, and Chile."
   },
 
   projects: [
